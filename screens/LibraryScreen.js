@@ -96,7 +96,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#F8EFEF',
     alignItems: 'center',
     justifyContent: 'flex-start',
-    borderRadius: 35,
+    borderTopLeftRadius: 35,
+    borderTopRightRadius: 35,
   },
 });
 export default LibraryScreen;
