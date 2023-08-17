@@ -8,7 +8,7 @@ const SearchFilter = ({ data, input }) => {
             style={styles.constainer}
         >
             <FlatList
-
+                showsVerticalScrollIndicator={false}
                 style={{ alignSelf: 'stretch', }}
                 data={data}
                 renderItem={({ item }) => {
